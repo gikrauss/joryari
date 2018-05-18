@@ -1,10 +1,10 @@
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("https://www.w3schools.com/howto/photographer.jpg");
+    background-image: url("../images/header_cropped.jpg");
 
     /* Set a specific height */
-    height: 350px;
+    height: 450px;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -17,8 +17,24 @@
 .hero-text {
     text-align: center;
     position: absolute;
+    left: 0%;
+    width: 20%;
+    max-width: 350px;
+}
+
+.hero-text-main {
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
+    color: grey;
+}
+
+.hero-text-bottom {
+    top: 90%;
     color: white;
+}
+
+.hero-text-background {
+    top: 0%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.25);
 }
