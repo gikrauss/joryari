@@ -26,12 +26,16 @@
 .hero-text-main {
     top: 50%;
     transform: translate(0%, -50%);
-    color: grey;
+    color: #999999;
+    font-family: "Bree Serif";
+    font-size: 18px;
 }
 
 .hero-text-bottom {
     top: 90%;
-    color: grey;
+    color: #ffffff;
+    font-family: calibri;
+    font-size: 13px;
 }
 
 .hero-text-background {
@@ -81,4 +85,17 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+body {
+  font-family: calibri;
+}
+
+.text-muted {
+    color: #666 !important;
+    font-size: 10px;
+}
+
+.card-body {
+  font-size: 14px;
 }
